@@ -1,3 +1,5 @@
+# Avia Tickets
+
 ## About
 
 An air ticket selling platform that allows people to travel anywhere by plane.
@@ -11,7 +13,7 @@ convenient as possible. So, well-designed algorithms do their best job.
    You can get your key on travelpayouts.com
 3. Run `npm install` command in the root of the project
 
-## Documentation
+## [Documentation] (doc/README.md)
 
 ## Available Scripts
 
