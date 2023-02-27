@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+## About
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An air ticket selling platform that allows people to travel anywhere by plane.
+The appliction uses best optimization solutions for making air ticket searching as fast and
+convenient as possible. So, well-designed algorithms do their best job.
+
+## Installation
+
+1. To run the project you need have Node.js installed (v16.x.x)
+2. Create .env file in the root of the project and paste your REACT_APP_API_KEY
+   You can get your key on travelpayouts.com
+3. Run `npm install` command in the root of the project
+
+## Documentation
 
 ## Available Scripts
 
