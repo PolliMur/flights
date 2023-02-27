@@ -1,0 +1,78 @@
+.ticket {
+  height: 10rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+
+  background-color: var(--ticket-color);
+  border-radius: 10px;
+  border: 0.1rem solid var(--ticket-border-color);
+  overflow: hidden;
+
+  &__item {
+    text-align: center;
+    color: var(--ticket-text-color);
+  }
+
+  &__price {
+    &-icon {
+      width: 1.7rem;
+      height: 1.7rem;
+      color: var(--ticket-text-color);
+    }
+
+    &-container {
+      display: flex;
+      column-gap: 0.2rem;
+      justify-content: center;
+      align-items: center;
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+    }
+  }
+
+  &__origin {
+    &-container {
+      display: flex;
+      column-gap: 0.2rem;
+      justify-content: center;
+      align-items: center;
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+    }
+  }
+
+  &__destination {
+    &-container {
+      display: flex;
+      column-gap: 0.2rem;
+      justify-content: center;
+      align-items: center;
+      grid-column: 2 / 3;
+      grid-row: 3 / 4;
+    }
+  }
+
+  &__depart-date {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+  }
+
+  &__gate {
+    &-container {
+      display: flex;
+      column-gap: 0.2rem;
+      justify-content: center;
+      align-items: center;
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+    }
+  }
+
+  &__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--ticket-text-color);
+  }
+}

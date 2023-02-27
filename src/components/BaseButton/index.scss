@@ -1,0 +1,19 @@
+.button {
+  background-color: var(--button);
+  width: clamp(8rem, 50%, 10rem);
+  height: 3rem;
+  border: none;
+  color: var(--text-primary);
+  text-align: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: var(--button-hover);
+  }
+
+  &:disabled {
+    background-color: var(--button-disabled);
+    color: var(--text-disabled);
+  }
+}

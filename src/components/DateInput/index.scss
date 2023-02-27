@@ -1,0 +1,67 @@
+.react-datepicker {
+  &__month-container {
+    background-color: var(--main-color);
+    font-size: 1rem;
+  }
+}
+
+.date-input {
+  width: 100%;
+  height: 3rem;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  text-align: center;
+  border: 0;
+  outline: 0;
+
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    position: relative;
+  }
+
+  &::placeholder {
+    color: var(--text-placeholder);
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  &-container {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    background-color: var(--main-color);
+    color: var(--text-placeholder);
+    border: 0.1rem solid var(--main-color);
+
+    &:hover {
+      background-color: var(--main-color);
+      outline: 0.1rem solid var(--main-color);
+    }
+  }
+
+  &__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+
+    &-padding {
+      padding-left: 0.5rem;
+    }
+  }
+
+  &--error {
+    border: 0.1rem solid var(--error);
+    color: var(--error);
+  }
+}
+
+.date-input__error-message {
+  position: absolute;
+  top: 4rem;
+  width: 100%;
+  min-height: 4rem;
+  word-wrap: break-word;
+  text-align: center;
+  color: var(--error);
+}

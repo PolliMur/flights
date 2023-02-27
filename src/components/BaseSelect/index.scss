@@ -1,0 +1,13 @@
+.select {
+  min-height: 3rem;
+  width: 100%;
+  background-color: var(--main-color);
+  text-align: center;
+  font-size: 1rem;
+  color: var(--text-color);
+  border: 0;
+
+  &:hover {
+    outline: 1px solid white;
+  }
+}

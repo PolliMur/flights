@@ -1,0 +1,23 @@
+.search-form {
+  display: flex;
+  column-gap: 2rem;
+  row-gap: 3rem;
+
+  @media (max-width: 735px) {
+    flex-direction: column;
+
+    &__button {
+      margin: 0 auto;
+    }
+  }
+
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    padding: 3rem 2rem;
+    background-color: rgba(219, 213, 213, 0.7);
+  }
+}

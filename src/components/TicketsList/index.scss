@@ -1,0 +1,42 @@
+.tickets-container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 60rem;
+  padding: 1rem 1rem;
+  background-color: var(--background-secondary);
+  border-radius: 16px;
+}
+
+.tickets-list {
+  &__ticket {
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+
+    &:hover {
+      background-color: var(--ticket-hover-color);
+    }
+  }
+
+  &__spinner {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .tickets-container {
+    max-width: 50rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .tickets-container {
+    max-width: 40rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .tickets-container {
+    max-width: 30rem;
+  }
+}

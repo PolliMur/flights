@@ -1,0 +1,12 @@
+//tickets
+export const GET_TICKETS_REQUESTED = 'GET_TICKETS_REQUESTED';
+export const GET_TICKETS_SUCCESS = 'GET_TICKETS_SUCCESS';
+export const GET_TICKETS_FAILED = 'GET_TICKETS_FAILED';
+export const SET_TICKETS = 'SET_TICKETS';
+
+//cart
+export const ADD_TO_CART = 'ADD_TO_CART';
+export const REMOVE_FROM_CART = 'REMOVE_FROM_CART';
+
+//theme
+export const SWITCH_THEME = 'SWITCH_THEME';
