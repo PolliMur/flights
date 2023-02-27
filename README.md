@@ -13,7 +13,9 @@ convenient as possible. So, well-designed algorithms do their best job.
    You can get your key on travelpayouts.com
 3. Run `npm install` command in the root of the project
 
-## [Documentation] (doc/README.md)
+## Documentation
+
+[Specification](doc/README.md)
 
 ## Available Scripts
 
