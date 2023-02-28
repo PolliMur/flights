@@ -17,6 +17,8 @@ convenient as possible. So, well-designed algorithms do their best job.
 
 [Specification](doc/README.md)
 
+![image](https://user-images.githubusercontent.com/68506750/198299191-d4e7d9bf-dbce-4bab-8e5b-3d7a1c043761.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
