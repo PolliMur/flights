@@ -1,5 +1,7 @@
 # Avia Tickets
 
+![image](https://user-images.githubusercontent.com/68506750/221913260-d49d9662-d955-43b5-9fc6-7caf095a0b7b.png)
+
 ## About
 
 An air ticket selling platform that allows people to travel anywhere by plane.
@@ -15,7 +17,11 @@ convenient as possible. So, well-designed algorithms do their best job.
 
 ## Documentation
 
-[Specification](doc/README.md)
+[SRS](doc/SRS/README.md)
+[SDS](doc/SDS/README.md)
+[Testing](doc/Testing/README.md)
+
+## Preview
 
 ![image](https://user-images.githubusercontent.com/68506750/198299191-d4e7d9bf-dbce-4bab-8e5b-3d7a1c043761.png)
 
